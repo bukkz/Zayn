@@ -40,9 +40,17 @@ class TypeEffectiveness:
     )
 
 
+    def __init__(self):
+        pass  # If you have any initialisation to do for instances
+
     @classmethod
     def get_effectiveness(cls, attack_type: PokeType, defend_type: PokeType) -> float:
         return cls.EFFECT_TABLE[attack_type.value][defend_type.value]
+
+    # Removed @classmethod decorator to make this an instance method
+    def __len__(self):
+        return len(self.EFFECT_TABLE)
+    
 
 class Pokemon(ABC):
     def __init__(self, name, level, poketype, battle_power, health, defence, speed, experience, evolution_line):
