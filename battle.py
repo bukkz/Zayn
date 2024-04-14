@@ -11,22 +11,34 @@ class Battle:
         self.battle_mode = battle_mode
         self.criterion = criterion
 
-    def commence_battle(self) -> Trainer | None:
-        raise NotImplementedError
+    def _create_teams(self):
+        # Prepare teams for battle
+        self.trainer_1.team.assemble_team(self.battle_mode)
+        self.trainer_2.team.assemble_team(self.battle_mode)
 
-    def _create_teams(self) -> None:
-        raise NotImplementedError
+    def commence_battle(self):
+        # Start battle based on mode
+        if self.battle_mode == BattleMode.SET:
+            return self.set_battle()
+        elif self.battle_mode == BattleMode.ROTATE:
+            return self.rotate_battle()
+        elif self.battle_mode == BattleMode.OPTIMISE:
+            return self.optimise_battle()
 
-    # Note: These are here for your convenience
-    # If you prefer you can ignore them
-    def set_battle(self) -> PokeTeam | None:
-        raise NotImplementedError
+    def set_battle(self):
+        # Implement the logic for 'Set' mode battle
+        # Details based on initial explanation
+        pass
 
-    def rotate_battle(self) -> PokeTeam | None:
-        raise NotImplementedError
+    def rotate_battle(self):
+        # Implement the logic for 'Rotate' mode battle
+        # Details based on initial explanation
+        pass
 
-    def optimise_battle(self) -> PokeTeam | None:
-        raise NotImplementedError
+    def optimise_battle(self):
+        # Implement the logic for 'Optimise' mode battle
+        # Details based on initial explanation
+        pass
 
 
 if __name__ == '__main__':
