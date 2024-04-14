@@ -38,13 +38,29 @@ class PokeTeam:
                 pokemon.health = pokemon.max_health  # Assume each Pokemon class has a max_health attribute
                 new_team.append(pokemon)
         self.team = tuple(new_team + [None] * (self.TEAM_LIMIT - len(new_team)))
-
+        
     def assemble_team(self, battle_mode: BattleMode):
-        # This function will later organize the team based on the battle mode
-        print("Assembling team for the battle mode:", battle_mode)
+        if battle_mode == BattleMode.SET:
+            # Reverse the tuple for Set Mode
+            self.team = self.team[::-1]
+        elif battle_mode == BattleMode.ROTATE:
+            # Keep as is, rotation will be handled during the battle
+            pass
+        elif battle_mode == BattleMode.OPTIMISE:
+            # Sort based on the criterion initially provided (attribute stored in self.criterion)
+            self.team = tuple(sorted(self.team, key=lambda x: getattr(x, self.criterion) if x else 0))
 
     def special(self, battle_mode: BattleMode):
-        print("Applying special strategy for", battle_mode)
+        mid_point = len(self.team) // 2
+        if battle_mode == BattleMode.SET:
+            # Reverse the first half of the team
+            self.team = self.team[:mid_point][::-1] + self.team[mid_point:]
+        elif battle_mode == BattleMode.ROTATE:
+            # Reverse the second half of the team
+            self.team = self.team[:mid_point] + self.team[mid_point:][::-1]
+        elif battle_mode == BattleMode.OPTIMISE:
+            # Toggle the sorting order
+            self.team = tuple(sorted(self.team, key=lambda x: getattr(x, self.criterion) if x else 0, reverse=True))
 
     def __getitem__(self, index):
         if index < self.team_count:
