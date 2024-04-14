@@ -1,5 +1,6 @@
 from abc import ABC
 from enum import Enum
+from data_structures.referential_array import ArrayR
 
 class PokeType(Enum):
     FIRE = 0
