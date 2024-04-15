@@ -3,7 +3,6 @@ import inspect
 
 class Bulbasaur(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 45
         self.level = 1
         self.poketype = PokeType.GRASS
@@ -16,7 +15,6 @@ class Bulbasaur(Pokemon):
 
 class Charmander(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 39
         self.level = 1
         self.poketype = PokeType.FIRE
@@ -29,7 +27,6 @@ class Charmander(Pokemon):
 
 class Squirtle(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 44
         self.level = 1
         self.poketype = PokeType.WATER
@@ -42,7 +39,6 @@ class Squirtle(Pokemon):
 
 class Caterpie(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 20
         self.level = 1
         self.poketype = PokeType.BUG
@@ -55,7 +51,6 @@ class Caterpie(Pokemon):
 
 class Weedle(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 25
         self.level = 1
         self.poketype = PokeType.BUG
@@ -68,7 +63,6 @@ class Weedle(Pokemon):
 
 class Pidgey(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.FLYING
@@ -81,7 +75,6 @@ class Pidgey(Pokemon):
 
 class Rattata(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 30
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -94,7 +87,6 @@ class Rattata(Pokemon):
 
 class Spearow(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.FLYING
@@ -107,7 +99,6 @@ class Spearow(Pokemon):
 
 class Ekans(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 35
         self.level = 1
         self.poketype = PokeType.POISON
@@ -120,7 +111,6 @@ class Ekans(Pokemon):
 
 class Pikachu(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 35
         self.level = 1
         self.poketype = PokeType.ELECTRIC
@@ -133,7 +123,6 @@ class Pikachu(Pokemon):
 
 class Sandshrew(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 50
         self.level = 1
         self.poketype = PokeType.GROUND
@@ -146,7 +135,6 @@ class Sandshrew(Pokemon):
 
 class NidoranM(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 46
         self.level = 1
         self.poketype = PokeType.POISON
@@ -159,7 +147,6 @@ class NidoranM(Pokemon):
 
 class NidoranF(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 55
         self.level = 1
         self.poketype = PokeType.POISON
@@ -172,7 +159,6 @@ class NidoranF(Pokemon):
 
 class Clefairy(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 70
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -185,7 +171,6 @@ class Clefairy(Pokemon):
 
 class Vulpix(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 38
         self.level = 1
         self.poketype = PokeType.FIRE
@@ -198,7 +183,6 @@ class Vulpix(Pokemon):
 
 class Jigglypuff(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 67
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -211,7 +195,6 @@ class Jigglypuff(Pokemon):
 
 class Zubat(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.POISON
@@ -224,7 +207,6 @@ class Zubat(Pokemon):
 
 class Oddish(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 45
         self.level = 1
         self.poketype = PokeType.GRASS
@@ -237,7 +219,6 @@ class Oddish(Pokemon):
 
 class Paras(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 35
         self.level = 1
         self.poketype = PokeType.BUG
@@ -250,7 +231,6 @@ class Paras(Pokemon):
 
 class Venonat(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 60
         self.level = 1
         self.poketype = PokeType.BUG
@@ -263,7 +243,6 @@ class Venonat(Pokemon):
 
 class Diglett(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 10
         self.level = 1
         self.poketype = PokeType.GROUND
@@ -276,7 +255,6 @@ class Diglett(Pokemon):
 
 class Meowth(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -289,7 +267,6 @@ class Meowth(Pokemon):
 
 class Psyduck(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 50
         self.level = 1
         self.poketype = PokeType.WATER
@@ -302,7 +279,6 @@ class Psyduck(Pokemon):
 
 class Mankey(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.FIGHTING
@@ -315,7 +291,6 @@ class Mankey(Pokemon):
 
 class Growlithe(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 55
         self.level = 1
         self.poketype = PokeType.FIRE
@@ -328,7 +303,6 @@ class Growlithe(Pokemon):
 
 class Poliwag(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.WATER
@@ -341,7 +315,6 @@ class Poliwag(Pokemon):
 
 class Abra(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 25
         self.level = 1
         self.poketype = PokeType.PSYCHIC
@@ -354,7 +327,6 @@ class Abra(Pokemon):
 
 class Machop(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 55
         self.level = 1
         self.poketype = PokeType.FIGHTING
@@ -367,7 +339,6 @@ class Machop(Pokemon):
 
 class Bellsprout(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 50
         self.level = 1
         self.poketype = PokeType.GRASS
@@ -380,7 +351,6 @@ class Bellsprout(Pokemon):
 
 class Tentacool(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.WATER
@@ -393,7 +363,6 @@ class Tentacool(Pokemon):
 
 class Geodude(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.ROCK
@@ -406,7 +375,6 @@ class Geodude(Pokemon):
 
 class Ponyta(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 50
         self.level = 1
         self.poketype = PokeType.FIRE
@@ -419,7 +387,6 @@ class Ponyta(Pokemon):
 
 class Slowpoke(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 66
         self.level = 1
         self.poketype = PokeType.WATER
@@ -432,7 +399,6 @@ class Slowpoke(Pokemon):
 
 class Magnemite(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 25
         self.level = 1
         self.poketype = PokeType.ELECTRIC
@@ -445,7 +411,6 @@ class Magnemite(Pokemon):
 
 class Farfetchd(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 52
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -458,7 +423,6 @@ class Farfetchd(Pokemon):
 
 class Doduo(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 35
         self.level = 1
         self.poketype = PokeType.FLYING
@@ -471,7 +435,6 @@ class Doduo(Pokemon):
 
 class Seel(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 65
         self.level = 1
         self.poketype = PokeType.ICE
@@ -484,7 +447,6 @@ class Seel(Pokemon):
 
 class Grimer(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 80
         self.level = 1
         self.poketype = PokeType.POISON
@@ -497,7 +459,6 @@ class Grimer(Pokemon):
 
 class Shellder(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 30
         self.level = 1
         self.poketype = PokeType.WATER
@@ -510,7 +471,6 @@ class Shellder(Pokemon):
 
 class Gastly(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 30
         self.level = 1
         self.poketype = PokeType.GHOST
@@ -523,7 +483,6 @@ class Gastly(Pokemon):
 
 class Onix(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 35
         self.level = 1
         self.poketype = PokeType.ROCK
@@ -536,7 +495,6 @@ class Onix(Pokemon):
 
 class Drowzee(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 60
         self.level = 1
         self.poketype = PokeType.PSYCHIC
@@ -549,7 +507,6 @@ class Drowzee(Pokemon):
 
 class Krabby(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 30
         self.level = 1
         self.poketype = PokeType.WATER
@@ -562,7 +519,6 @@ class Krabby(Pokemon):
 
 class Voltorb(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.ELECTRIC
@@ -575,7 +531,6 @@ class Voltorb(Pokemon):
 
 class Exeggcute(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 60
         self.level = 1
         self.poketype = PokeType.GRASS
@@ -588,7 +543,6 @@ class Exeggcute(Pokemon):
 
 class Cubone(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 50
         self.level = 1
         self.poketype = PokeType.GROUND
@@ -601,7 +555,6 @@ class Cubone(Pokemon):
 
 class Hitmonlee(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 50
         self.level = 1
         self.poketype = PokeType.FIGHTING
@@ -614,7 +567,6 @@ class Hitmonlee(Pokemon):
 
 class Hitmonchan(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 50
         self.level = 1
         self.poketype = PokeType.FIGHTING
@@ -627,7 +579,6 @@ class Hitmonchan(Pokemon):
 
 class Lickitung(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 90
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -640,7 +591,6 @@ class Lickitung(Pokemon):
 
 class Koffing(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.POISON
@@ -653,7 +603,6 @@ class Koffing(Pokemon):
 
 class Rhyhorn(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 80
         self.level = 1
         self.poketype = PokeType.GROUND
@@ -666,7 +615,6 @@ class Rhyhorn(Pokemon):
 
 class Chansey(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 150
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -679,7 +627,6 @@ class Chansey(Pokemon):
 
 class Tangela(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 65
         self.level = 1
         self.poketype = PokeType.GRASS
@@ -692,7 +639,6 @@ class Tangela(Pokemon):
 
 class Kangaskhan(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 88
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -705,7 +651,6 @@ class Kangaskhan(Pokemon):
 
 class Horsea(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 30
         self.level = 1
         self.poketype = PokeType.WATER
@@ -718,7 +663,6 @@ class Horsea(Pokemon):
 
 class Goldeen(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 45
         self.level = 1
         self.poketype = PokeType.WATER
@@ -731,7 +675,6 @@ class Goldeen(Pokemon):
 
 class Staryu(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 30
         self.level = 1
         self.poketype = PokeType.WATER
@@ -744,7 +687,6 @@ class Staryu(Pokemon):
 
 class MrMime(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 40
         self.level = 1
         self.poketype = PokeType.PSYCHIC
@@ -757,7 +699,6 @@ class MrMime(Pokemon):
 
 class Scyther(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 70
         self.level = 1
         self.poketype = PokeType.BUG
@@ -770,7 +711,6 @@ class Scyther(Pokemon):
 
 class Jynx(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 65
         self.level = 1
         self.poketype = PokeType.ICE
@@ -783,7 +723,6 @@ class Jynx(Pokemon):
 
 class Electabuzz(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 65
         self.level = 1
         self.poketype = PokeType.ELECTRIC
@@ -796,7 +735,6 @@ class Electabuzz(Pokemon):
 
 class Magmar(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 65
         self.level = 1
         self.poketype = PokeType.FIRE
@@ -809,7 +747,6 @@ class Magmar(Pokemon):
 
 class Pinsir(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 65
         self.level = 1
         self.poketype = PokeType.BUG
@@ -822,7 +759,6 @@ class Pinsir(Pokemon):
 
 class Tauros(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 75
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -835,7 +771,6 @@ class Tauros(Pokemon):
 
 class Magikarp(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 20
         self.level = 1
         self.poketype = PokeType.WATER
@@ -848,7 +783,6 @@ class Magikarp(Pokemon):
 
 class Lapras(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 90
         self.level = 1
         self.poketype = PokeType.WATER
@@ -861,7 +795,6 @@ class Lapras(Pokemon):
 
 class Ditto(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 48
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -874,7 +807,6 @@ class Ditto(Pokemon):
 
 class Eevee(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 55
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -887,7 +819,6 @@ class Eevee(Pokemon):
 
 class Porygon(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 65
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -900,7 +831,6 @@ class Porygon(Pokemon):
 
 class Omanyte(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 35
         self.level = 1
         self.poketype = PokeType.WATER
@@ -913,7 +843,6 @@ class Omanyte(Pokemon):
 
 class Kabuto(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 30
         self.level = 1
         self.poketype = PokeType.ROCK
@@ -926,7 +855,6 @@ class Kabuto(Pokemon):
 
 class Aerodactyl(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 80
         self.level = 1
         self.poketype = PokeType.ROCK
@@ -939,7 +867,6 @@ class Aerodactyl(Pokemon):
 
 class Snorlax(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 85
         self.level = 1
         self.poketype = PokeType.NORMAL
@@ -952,7 +879,6 @@ class Snorlax(Pokemon):
 
 class Articuno(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 90
         self.level = 1
         self.poketype = PokeType.ICE
@@ -965,7 +891,6 @@ class Articuno(Pokemon):
 
 class Zapdos(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 90
         self.level = 1
         self.poketype = PokeType.ELECTRIC
@@ -978,7 +903,6 @@ class Zapdos(Pokemon):
 
 class Moltres(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 90
         self.level = 1
         self.poketype = PokeType.FIRE
@@ -991,7 +915,6 @@ class Moltres(Pokemon):
 
 class Dratini(Pokemon):
     def __init__(self):
-        super().__init__()
         self.health = 41
         self.level = 1
         self.poketype = PokeType.DRAGON
